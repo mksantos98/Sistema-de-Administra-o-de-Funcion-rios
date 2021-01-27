@@ -14,7 +14,7 @@ while($registros = $querySelect->fetch_assoc()):
     echo "<tr>";
     echo "<td>$nome</td><td>$email</td><td>$cargo</td>";
     echo "<td><a href='editar.php?id=$id'><i class= 'material-icons'>edit</i></a></td>";
-    echo "<td><a href='banco_de_dados/confirma.php?id=$id'><i class= 'material-icons'>delete</i></a></td>";
+    echo "<td><a href='#' onclick='excluir($id)'><i class= 'material-icons'>delete</i></a></td>";
     echo "</tr>";
 endwhile;
 ?>
