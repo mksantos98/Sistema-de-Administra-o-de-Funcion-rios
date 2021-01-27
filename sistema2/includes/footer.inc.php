@@ -7,6 +7,14 @@
 
         });
       </script>
+      <script>
+        function excluir(id) {
+          if(confirm("deseja excluir?")) {
+            document.location.href = "banco_de_dados/delete.php";
+          }
+        }
+        </script>
+
       
     </body>
   </html>
