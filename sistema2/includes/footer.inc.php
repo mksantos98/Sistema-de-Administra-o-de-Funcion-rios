@@ -9,8 +9,8 @@
       </script>
       <script>
         function excluir(id) {
-          if(confirm("deseja excluir?")) {
-            document.location.href = "banco_de_dados/delete.php";
+          if(confirm("Deseja mesmo EXCLUIR esse Funcionário?")) {
+            document.location.href = "banco_de_dados/delete.php?id="+id;
           }
         }
         </script>
